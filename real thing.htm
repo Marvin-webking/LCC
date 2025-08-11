@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lives Changing Centre — Mathare | Bishop Joseph Ndungu &amp; Pastor Monicah</title>
+  <meta name="description" content="Lives Changing Centre (Mathare) — a local church led by Bishop Joseph Ndungu and Pastor Monicah. Services, ministries, sermons, events, giving and prayer requests.">
+  <meta name="keywords" content="Lives Changing Centre, Mathare church, Bishop Joseph Ndungu, Pastor Monicah, church Mathare, sermons, prayer requests, volunteer">
+  <meta name="author" content="Lives Changing Centre">
+  <link rel="canonical" href="https://example.com/">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Lives Changing Centre — Mathare">
+  <meta property="og:description" content="A community church in Mathare led by Bishop Joseph Ndungu and Pastor Monicah. Join worship, events, and ministries.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Lives Changing Centre">
+  <!-- JSON-LD Organization for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Church",
+    "name": "Lives Changing Centre",
+    "description": "Lives Changing Centre in Mathare — led by Bishop Joseph Ndungu and Pastor Monicah.",
+    "url": "https://example.com/",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mathare",
+      "addressRegion": "Nairobi",
+      "addressCountry": "KE"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Bishop Joseph Ndungu"
+    },
+    "member": {
+      "@type": "Person",
+      "name": "Pastor Monicah"
+    }
+  }
+  </script>
+  <style>
+    :root{--accent:#2b6cb0;--muted:#6b7280;--bg:#f7fafc}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;line-height:1.5;margin:0;background:var(--bg);color:#0f172a}
+    a{color:var(--accent);text-decoration:none}
+    header{background:white;box-shadow:0 2px 8px rgba(11,15,21,.06);position:sticky;top:0;z-index:50}
+    .container{max-width:1100px;margin:0 auto;padding:0 1rem}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:1rem 0}
+    .brand{display:flex;gap:.75rem;align-items:center}
+    .brand h1{font-size:1rem;margin:0}
+    nav ul{list-style:none;display:flex;gap:1rem;margin:0;padding:0;align-items:center}
+    .cta{background:var(--accent);color:white;padding:.5rem .9rem;border-radius:8px}
+    .hero{display:grid;grid-template-columns:1fr;gap:1.25rem;padding:2rem 0;align-items:center}
+    .hero-inner{background:white;padding:1.25rem;border-radius:12px;box-shadow:0 6px 18px rgba(11,15,21,.06)}
+    .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+    .section{padding:2rem 0}
+    .card{background:white;padding:1rem;border-radius:10px;box-shadow:0 6px 18px rgba(11,15,21,.04)}
+    .ministries{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem}
+    .events-list{display:flex;flex-direction:column;gap:.75rem}
+    footer{padding:2rem 0;background:#0b1220;color:white}
+    .muted{color:var(--muted)}
+    /* responsive */
+    @media (max-width:800px){.grid-2{grid-template-columns:1fr}.nav ul{display:none}.mobile-show{display:block}}
+    @media (min-width:801px){.mobile-show{display:none}}
+    .hamburger{background:transparent;border:0;font-size:1.25rem}
+    input,textarea,select,button{font-family:inherit}
+    .form-row{display:flex;gap:.5rem}
+    .form-row .field{flex:1}
+    .btn{display:inline-block;padding:.5rem .75rem;border-radius:8px;border:0;cursor:pointer}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-ghost{background:transparent;border:1px solid #e6eef8}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <img src="data:image/svg+xml;utf8,&lt;svg xmlns='http://www.w3.org/2000/svg' width='42' height='42' viewBox='0 0 24 24'&gt;&lt;rect width='24' height='24' rx='6' fill='%232b6cb0'/&gt;&lt;path d='M12 6v12M6 12h12' stroke='%23fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/&gt;&lt;/svg&gt;" alt="Lives Changing Centre logo" width="42" height="42">
+        <div>
+          <h1>Lives Changing Centre</h1>
+          <div class="muted" style="font-size:.85rem">Mathare — Bishop Joseph Ndungu &amp; Pastor Monicah</div>
+        </div>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#ministries">Ministries</a></li>
+          <li><a href="#sermons">Sermons</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div style="display:flex;gap:.5rem;align-items:center">
+        <a class="cta" href="#give">Give</a>
+        <button class="hamburger mobile-show" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" style="display:none;padding:.5rem 1rem;background:white;border-top:1px solid #eef2f7">
+      <a href="#home">Home</a> • <a href="#about">About</a> • <a href="#ministries">Ministries</a> • <a href="#sermons">Sermons</a> • <a href="#events">Events</a> • <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero section">
+      <div class="hero-inner">
+        <div class="grid-2">
+          <div>
+            <h2 style="margin-top:0">Welcome to Lives Changing Centre</h2>
+            <p class="muted">A warm, multi-generational community in 
+Mathare where lives are transformed by the love of Christ. Led by Bishop
+ Joseph Ndungu and Pastor Monicah.</p>
+            <p><strong>Service times:</strong> Sundays 9:00 AM &amp; 4:00 PM | Wednesdays 6:00 PM (Prayer Meeting)</p>
+            <p><a href="#contact" class="btn btn-ghost">Plan a visit</a> <a href="#sermons" class="btn btn-primary">Watch latest sermon</a></p>
+          </div>
+          <div>
+            <div style="background:#eef6ff;padding:1rem;border-radius:8px">
+              <h3 style="margin:0">Next big event</h3>
+              <div id="nextEvent" style="margin-top:.75rem">2025-08-15 — Youth Revival @ Main Hall</div>
+              <p style="margin:.5rem 0 0;font-size:.95rem" class="muted">Click <a href="#events">Events</a> for details or join our weekly services.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="card">
+        <h2>About us</h2>
+        <p>Lives Changing Centre is a community-focused church serving 
+Mathare and neighbouring communities. Our mission is to lead people into
+ a growing relationship with Jesus, care for the vulnerable, and serve 
+our neighbourhood practically.</p>
+        <h3>Leaders</h3>
+        <ul>
+          <li><strong>Bishop Joseph Ndungu</strong> — Chief pastor and overseer.</li>
+          <li><strong>Pastor Monicah</strong> — Pastor and community programs coordinator.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="ministries" class="section">
+      <h2>Ministries</h2>
+      <div class="ministries">
+        <div class="card">
+          <h4>Worship</h4>
+          <p>Sunday worship, choir and band ministry.</p>
+        </div>
+        <div class="card">
+          <h4>Youth</h4>
+          <p>Youth meetings, mentorship and leadership training.</p>
+        </div>
+        <div class="card">
+          <h4>Children</h4>
+          <p>Engaging Sunday school for kids (0–12).</p>
+        </div>
+        <div class="card">
+          <h4>Outreach</h4>
+          <p>Community feeding, practical support and programmes for vulnerable families.</p>
+        </div>
+        <div class="card">
+          <h4>Prayer</h4>
+          <p>Midweek prayer meetings and personal prayer teams.</p>
+        </div>
+        <div class="card">
+          <h4>Counselling</h4>
+          <p>Pastoral counselling by request; confidential and compassionate.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sermons" class="section">
+      <h2>Sermons</h2>
+      <p class="muted">Latest sermons — embedded videos and audio. Replace the YouTube IDs below with your channel's IDs.</p>
+      <div class="grid-2">
+        <div class="card">
+          <h4>Latest sermon</h4>
+          <!-- Replace the src with your YouTube video id -->
+          <div style="position:relative;padding-top:56.25%">
+            <iframe src="real%20thing_files/dQw4w9WgXcQ.htm" title="Sermon video" style="position:absolute;inset:0;width:100%;height:100%;border:0;border-radius:8px" allowfullscreen=""></iframe>
+          </div>
+          <p style="margin:.5rem 0 0">Speaker: Bishop Joseph Ndungu — "Hope Renewed"</p>
+        </div>
+        <div class="card">
+          <h4>Sermon archive</h4>
+          <ul id="sermonList">
+            <li>2025-07-06 — "Faith that Moves" — Pastor Monicah</li>
+            <li>2025-06-29 — "Prayer that Changes" — Bishop Joseph</li>
+            <li>Older sermons are available on our YouTube channel.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="section">
+      <h2>Events &amp; Calendar</h2>
+      <p class="muted">Below are upcoming events. This is a simple 
+client-side manager — for public sites replace with Google Calendar or a
+ backend CMS for live publishing.</p>
+      <div class="grid-2">
+        <div class="card">
+          <h4>Upcoming events</h4>
+          <div class="events-list" id="eventsList"><div class="card"><strong>2025-08-15</strong> — Youth Revival <div class="muted" style="font-size:.9rem">Main Hall  — 7pm</div></div><div class="card"><strong>2025-08-24</strong> — Community Outreach <div class="muted" style="font-size:.9rem">Neighbourhood  — Charity drive</div></div></div>
+        </div>
+        <div class="card">
+          <h4>Admin: Add quick event</h4>
+          <form id="addEventForm">
+            <div style="display:flex;flex-direction:column;gap:.5rem">
+              <input type="date" id="evDate" required="">
+              <input type="text" id="evTitle" placeholder="Event title" required="">
+              <input type="text" id="evLocation" placeholder="Location (e.g. Main hall)" required="">
+              <textarea id="evNote" placeholder="Short note (optional)" rows="2"></textarea>
+              <div style="display:flex;gap:.5rem">
+                <button class="btn btn-primary" type="submit">Add event</button>
+                <button class="btn" type="button" id="clearEvents">Clear events</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="prayer" class="section">
+      <h2>Prayer requests</h2>
+      <p class="muted">Submit a confidential prayer request — these are 
+stored locally in this demo. For real ministry use, connect to an email,
+ database, or secure form service.</p>
+      <div class="grid-2">
+        <div class="card">
+          <form id="prayerForm">
+            <label class="sr-only" for="prayerName">Your name</label>
+            <input id="prayerName" placeholder="Your name (optional)">
+            <label class="sr-only" for="prayerText">Prayer request</label>
+            <textarea id="prayerText" placeholder="Write your prayer request here" required="" rows="4"></textarea>
+            <div style="display:flex;gap:.5rem;margin-top:.5rem">
+              <button class="btn btn-primary" type="submit">Send prayer</button>
+              <button class="btn" type="button" id="downloadPrayers">Download CSV</button>
+            </div>
+          </form>
+        </div>
+        <div class="card">
+          <h4>Recent prayer requests (private)</h4>
+          <ul id="prayerList"><li><strong>Ndungu</strong>: hey am so and so <div class="muted" style="font-size:.8rem">2025-08-10</div></li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact &amp; Visit</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h4>Location</h4>
+          <p>Lives Changing Centre, Mathare, Nairobi, Kenya</p>
+          <p><strong>Phone:</strong> +254 7XXXXXXXX (replace with your number)</p>
+          <p><strong>Email:</strong> <a href="mailto:info@liveschangingcentre.org">info@liveschangingcentre.org</a></p>
+          <p><strong>Office Hours:</strong> Mon–Fri 9:00–16:00</p>
+          <p><a href="#" class="btn btn-ghost">Get directions (Google Maps)</a></p>
+        </div>
+        <div class="card">
+          <h4>Contact form</h4>
+          <!-- For production, connect this to Formspree, Netlify Forms, or your server. See comments in JS. -->
+          <form id="contactForm">
+            <input id="cname" placeholder="Your name" required="">
+            <input id="cemail" placeholder="Your email" type="email" required="">
+            <textarea id="cmessage" placeholder="Message" required="" rows="4"></textarea>
+            <div style="display:flex;gap:.5rem;margin-top:.5rem">
+              <button class="btn btn-primary" type="submit">Send message</button>
+              <button class="btn" type="button" id="resetContact">Reset</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="give" class="section">
+      <h2>Giving &amp; Support</h2>
+      <div class="card">
+        <p>Thank you for considering supporting Lives Changing Centre. 
+For secure online giving, connect this page to your church's payment 
+provider (PayPal, Stripe, M-Pesa Paybill or Till). Below are suggested 
+placeholders — DO NOT use these for real transactions.</p>
+        <ul>
+          <li>MPESA Paybill: <strong>000000</strong> (Business till/paybill)</li>
+          <li>Bank: <strong>Bank Name</strong> — Account No: <strong>000000000</strong></li>
+        </ul>
+        <p class="muted">To accept payments on the website: use official payment APIs, ensure SSL (https) and follow payment provider verification.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap">
+        <div>
+          <strong>Lives Changing Centre</strong><div class="muted">Mathare, Nairobi — Bishop Joseph Ndungu &amp; Pastor Monicah</div>
+        </div>
+        <div class="muted">© 2025 Lives Changing Centre — All rights reserved</div>
+        <div>
+          <a href="#privacy" style="color:inherit;margin-right:.5rem">Privacy</a>
+          <a href="#terms" style="color:inherit">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu
+    const ham = document.querySelector('.hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    ham.addEventListener('click', ()=>{
+      const expanded = ham.getAttribute('aria-expanded') === 'true';
+      ham.setAttribute('aria-expanded', String(!expanded));
+      mobileMenu.style.display = expanded ? 'none' : 'block';
+    });
+
+    // Simple events manager — stored in localStorage for demo purposes
+    const EVENTS_KEY = 'lcc_events_v1';
+    const DEFAULT_EVENTS = [
+      {date:'2025-08-15', title:'Youth Revival', location:'Main Hall', note:'7pm'} ,
+      {date:'2025-08-24', title:'Community Outreach', location:'Neighbourhood', note:'Charity drive'}
+    ];
+
+    function loadEvents(){
+      const raw = localStorage.getItem(EVENTS_KEY);
+      let events = raw ? JSON.parse(raw) : DEFAULT_EVENTS;
+      events.sort((a,b)=> a.date.localeCompare(b.date));
+      return events;
+    }
+    function saveEvents(events){ localStorage.setItem(EVENTS_KEY, JSON.stringify(events)); }
+
+    function renderEvents(){
+      const list = document.getElementById('eventsList'); list.innerHTML='';
+      const events = loadEvents();
+      const now = new Date().toISOString().slice(0,10);
+      const next = events.find(e=> e.date >= now) || events[0];
+      document.getElementById('nextEvent').innerText = next ? `${next.date} — ${next.title} @ ${next.location}` : 'No upcoming events';
+      if(events.length===0){ list.innerHTML='<div class="muted">No events found.</div>'; return; }
+      events.forEach(e=>{
+        const el = document.createElement('div'); el.className='card';
+        el.innerHTML = `<strong>${e.date}</strong> — ${e.title} <div class='muted' style='font-size:.9rem'>${e.location} ${e.note? ' — '+e.note : ''}</div>`;
+        list.appendChild(el);
+      });
+    }
+    renderEvents();
+
+    document.getElementById('addEventForm').addEventListener('submit', e=>{
+      e.preventDefault();
+      const date = document.getElementById('evDate').value;
+      const title = document.getElementById('evTitle').value.trim();
+      const location = document.getElementById('evLocation').value.trim();
+      const note = document.getElementById('evNote').value.trim();
+      if(!date || !title) return alert('Please add date and title.');
+      const events = loadEvents(); events.push({date,title,location,note}); saveEvents(events); renderEvents();
+      e.target.reset();
+    });
+    document.getElementById('clearEvents').addEventListener('click', ()=>{ if(confirm('Clear all events?')){ localStorage.removeItem(EVENTS_KEY); renderEvents(); }});
+
+    // Prayer requests (demo: localStorage)
+    const PRAY_KEY = 'lcc_prayers_v1';
+    function loadPrayers(){ return JSON.parse(localStorage.getItem(PRAY_KEY) || '[]'); }
+    function savePrayers(list){ localStorage.setItem(PRAY_KEY, JSON.stringify(list)); }
+    function renderPrayers(){ const ul = document.getElementById('prayerList'); ul.innerHTML=''; const prayers = loadPrayers(); prayers.slice(-10).reverse().forEach(p=>{ const li=document.createElement('li'); li.innerHTML = `<strong>${p.name||'Anonymous'}</strong>: ${p.text} <div class='muted' style='font-size:.8rem'>${p.date}</div>`; ul.appendChild(li); }); }
+    renderPrayers();
+    document.getElementById('prayerForm').addEventListener('submit', e=>{
+      e.preventDefault(); const name = document.getElementById('prayerName').value.trim(); const text = document.getElementById('prayerText').value.trim();
+      if(!text) return alert('Enter your prayer request.');
+      const prayers = loadPrayers(); prayers.push({name,text,date:new Date().toISOString().slice(0,10)}); savePrayers(prayers); renderPrayers(); e.target.reset(); alert('Prayer request received — a team will pray for you.');
+    });
+
+    document.getElementById('downloadPrayers').addEventListener('click', ()=>{
+      const prayers = loadPrayers(); if(prayers.length===0) return alert('No prayers to download.');
+      const csv = ['name,text,date'].concat(prayers.map(p=>`${JSON.stringify(p.name)},${JSON.stringify(p.text)},${p.date}`)).join('\n');
+      const blob = new Blob([csv],{type:'text/csv'}); const url = URL.createObjectURL(blob);
+      const a = document.createElement('a'); a.href = url; a.download='prayers.csv'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    });
+
+    // Contact form — demo only. Replace with Formspree/Netlify Forms/AJAX to your server for production.
+    document.getElementById('contactForm').addEventListener('submit', e=>{
+      e.preventDefault();
+      const name = document.getElementById('cname').value.trim();
+      const email = document.getElementById('cemail').value.trim();
+      const message = document.getElementById('cmessage').value.trim();
+      if(!name||!email||!message) return alert('Please fill all fields');
+      // Example: send via mailto (opens user's email client)
+      const subject = encodeURIComponent('Contact from website — Lives Changing Centre');
+      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
+      window.location.href = `mailto:info@liveschangingcentre.org?subject=${subject}&body=${body}`;
+    });
+    document.getElementById('resetContact').addEventListener('click', ()=>{ document.getElementById('contactForm').reset(); });
+
+    // Simple SEO-friendly behavior: allow linking directly to sections and smooth scroll
+    if('scrollBehavior' in document.documentElement.style){ document.documentElement.style.scrollBehavior='smooth'; }
+  </script>
+
+
+
+</body></html>
